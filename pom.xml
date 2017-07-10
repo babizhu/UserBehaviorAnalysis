@@ -72,7 +72,7 @@
     </dependencies>
 
     <build>
-        <finalName>quant_trader</finalName>
+        <finalName>UserBehaviorAnalysis</finalName>
         <!--生成包的文件名-->
         <plugins>
             <plugin>
@@ -98,7 +98,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                             <!--库所在的文件夹，通常是把运行所需要的jar包放入jar文件所在的同级lib文件夹中，可以自行拷贝，目前无需自行拷贝，详细见下一plugin-->
-                            <mainClass>org.bbz.stock.StockVerticle</mainClass>
+                            <mainClass>com.srxk.car.user.behavioranalysis.MainVerticle</mainClass>
                             <!--运行的主类-->
 
                         </manifest>
