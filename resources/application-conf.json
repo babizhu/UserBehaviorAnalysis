@@ -1,0 +1,12 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "db":{
+    "jdbcUrl":"jdbc:mysql://localhost:3306/UserBehaviorAnalysis?useSSL=true",
+    "user":"root",
+    "password":"root",
+    "maximumPoolSize":30
+  }
+
+}
