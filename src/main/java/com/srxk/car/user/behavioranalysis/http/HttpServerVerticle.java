@@ -100,7 +100,7 @@ public class HttpServerVerticle extends AbstractVerticle{
         vertx.eventBus().send( dbQueue, request, options, reply -> {
             if( reply.succeeded() ) {
                 context.response().setStatusCode( 200 ).end( "ok" );
-                System.out.println( "ok!!!!!!!!!!!!" );
+                log.info( request + " ok" );
             } else {
 //                context.fail( reply.cause() );
                 context.response().setStatusCode( 500 ).end( reply.cause().getMessage() );
